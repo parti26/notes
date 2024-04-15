@@ -1,11 +1,11 @@
 const alphabet = "abcdefghijklmnopqrstuvwxyz";
-function getLetterScore(alphabet, letter) {
-  for (const letter of alphabet) {
-    if (letter === alphabet[key]) {
-    console.log(key);
+const lettersArr = alphabet.split("");
+function giveLettersScore(){
+    let lettersWithValues = [];
+    for (let i = 0; i < lettersArr.length; i++){
+        lettersArr[i].push(lettersWithValues);
     }
-  }
+    return lettersWithValues;
 }
 
-
-console.log(getLetterScore(alphabet));
+console.log(giveLettersScore());
