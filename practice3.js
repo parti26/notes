@@ -1,7 +1,6 @@
 // changing letters with an odd index number to capital
 
-
-/* Solution 1
+//Solution 1
 function capitalizeLetters(word) {
   let result = "";
   for (let i = 0; i < word.length; i++) {
@@ -15,12 +14,8 @@ function capitalizeLetters(word) {
 }
 
 console.log(capitalizeLetters("túrós pite"));
- */
 
-function capitalizeOddLetters (word, letter){
-    for (letter of word){
-        
-    }
+function capitalizeOddLetters(word, letter) {
+  for (letter of word) {
+  }
 }
-
-
