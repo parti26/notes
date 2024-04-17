@@ -18,7 +18,7 @@ button.addEventListener('click', () => {
     else if (num % 3 === 0){
         li.innerText = `${num}:Fizz`;
     }
-    else if (num % 5 === 0){.
+    else if (num % 5 === 0){
         li.innerText = `${num}:Buzz`;
     }
     else {
