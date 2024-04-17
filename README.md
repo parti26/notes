@@ -1,7 +1,7 @@
 # Covering learning materials
 
 ### Js
-**.split**
+**.split()**
 -> to handle each piece of data separately
 -> 
 ``` JS
@@ -23,6 +23,18 @@ console.log(charsArray);
 
 
 ```
+**.includes()**
+-> boolean értéket ad vissza (t/f)
+```JS
+const sentence = "Hello, welcome to the jungle.";
+
+console.log(sentence.includes("welcome"));  // Outputs: true
+console.log(sentence.includes("hello"));  // Outputs: false (case-sensitive)
+console.log(sentence.includes("to", 10));  // Outputs: true (starts searching at index 10)
+console.log(sentence.includes("to", 20));  // Outputs: false (starts searching at index 20)
+
+```
+
 
 #### Synchronous (Sync) File Reading
 
