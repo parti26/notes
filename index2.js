@@ -9,10 +9,10 @@ const getVal = () => {
 button.addEventListener('click', () => {
     const num = getVal();
 
-    const li = document.querySelector('li');
+    const li = document.createElement('li');
     results.append(li);
 
-    if (number % 15 === 0){
+    if (num % 15 === 0){
        li.innerText = `${num}:FizzBuzz`;
     }
     else if (num % 3 === 0){
