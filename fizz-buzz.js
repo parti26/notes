@@ -1,5 +1,5 @@
 const input = document.querySelector("#num");
-const button = document.querySelector("button"); //ráhívunk a buttonra
+const button = document.querySelector("button"); 
 const results = document.querySelector("#results");
 
 const getVal = () => {
@@ -27,4 +27,10 @@ button.addEventListener('click', () => {
 });
 
 
+function generate(n){
+    for (let i = 1; i < n; i++){
+        input.value.push(i);
+    }
+};
 
+window.onload = () => generate(100);
