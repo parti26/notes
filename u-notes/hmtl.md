@@ -39,3 +39,6 @@
   - form element better describes the content that inside the box
   - <input type="text(eg)" placeholder="your name (eg)"> input element. type attribute to specify the type of data that should be inputted
   - <button>OK! (eg)</button>
+
+### Le Balazs notes
+- 

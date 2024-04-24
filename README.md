@@ -35,6 +35,21 @@ console.log(sentence.includes("to", 20));  // Outputs: false (starts searching a
 
 ```
 
+**.sort**
+
+Alphabetical order
+```JS
+let fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.sort();
+console.log(fruits);  // Output: ["Apple", "Banana", "Mango", "Orange"]
+
+let numbers = [40, 100, 1, 5, 25];
+numbers.sort((a, b) => a - b);
+console.log(numbers);  // Output: [1, 5, 25, 40, 100]
+
+
+```
+
 
 #### Synchronous (Sync) File Reading
 

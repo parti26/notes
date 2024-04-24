@@ -20,6 +20,7 @@ event should happen
 - eg -> document.querySelector('.classname').addEventListener('name fo the event -- click', function value as a 2. argument, so function(){
  })
 - a function is also just a value so we can pass it into another function as an argument
+- .blablabla a pont a class selector
 
 ### Web APIs
 - Web Application Programming Interface
